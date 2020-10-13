@@ -79,8 +79,8 @@ module.exports = {
       }
     },
     valineConfig: {
-      appId: 'vqQqmO9XF3qYGaTmrDvtiqN5-gzGzoHsz',// your appId
-      appKey: 'Ix7BVPtio2xmJjakbkQ1k6Sw', // your appKey
+      appId: process.env.VSSUEID,// your appId
+      appKey: process.env.VSSUESECRET, // your appKey
       recordIP: true,
       placeholder: '来都来了，玩会儿再走嘛。。。',
       visitor: true,
